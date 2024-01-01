@@ -1,0 +1,73 @@
+Requirements:
+
+Libraries and Packages:
+
+os: Operating system interface.
+
+numpy: Library for numerical operations.
+
+PIL: Python Imaging Library for opening, manipulating, and saving image files.
+
+UnidentifiedImageError: Exception for handling unidentified image errors.
+
+sklearn: Scikit-learn library for machine learning tools.
+
+pandas: Data manipulation library.
+
+tensorflow: TensorFlow deep learning framework.
+
+Sequential, Dense, Conv2D, MaxPooling2D, Flatten, InputLayer, Reshape: Keras layers for building neural networks.
+
+matplotlib.pyplot: Library for creating visualizations.
+
+Model Directory Structure:
+
+MalariaDetectionProject
+
+data: Folder containing the malaria dataset.
+
+cell_images: Subfolder containing subdirectories for "Parasitized" and "Uninfected" classes.
+
+models: Folder for storing trained models.
+
+scripts: Folder containing Python scripts for data preprocessing, model training, and Streamlit app.
+
+app.py: Main script for running the Streamlit app.
+
+requirements.txt: File specifying required Python packages.
+
+Instructions to Run the Code:
+
+Install Required Packages:
+
+Open a terminal.
+
+Navigate to the project directory using cd path/to/MalariaDetectionProject.
+
+Run pip install -r requirements.txt to install the necessary Python packages.
+
+Data Preparation and Model Training:
+
+Open a Jupyter Notebook or any Python environment.
+
+Run the script scripts/data_preparation_model_training.ipynb to prepare the data, train the model, and save it to the models directory.
+
+Run Streamlit App:
+
+Ensure that you have Streamlit installed (pip install streamlit).
+
+Run the command streamlit run scripts/app.py in the terminal.
+
+Open the provided URL in a web browser to interact with the Malaria Detection App.
+
+Explore Model Performance:
+
+View the accuracy and loss plots generated during model training in the Jupyter Notebook (data_preparation_model_training.ipynb).
+
+Analyze the results to understand how well the model performed on the training and validation sets.
+
+Adjust Image Size (Optional):
+
+If desired, adjust the image_size variable in the scripts to change the input size for the images.
+
+By following these instructions, you can reproduce the Malaria Detection Project, train the model, and interact with the Streamlit app for malaria detection.
